@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+:root {
+  font-size: 62.5%;
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: "Oufit", "Young Serif", serif;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  line-height: 1.6;
+  color: var(--Stone-900);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}/*# sourceMappingURL=style.css.map */
