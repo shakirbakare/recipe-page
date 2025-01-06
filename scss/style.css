@@ -85,4 +85,26 @@ body {
 }
 .preparation-time li::marker {
   color: var(--Brown-800);
+}
+
+.ingredients {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--Stone-150);
+  margin-bottom: 3rem;
+}
+.ingredients__heading {
+  color: var(--Brown-800);
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+.ingredients li {
+  font-family: "Outfit", sans-serif;
+  padding-left: 2rem;
+  margin-left: 2.4rem;
+}
+.ingredients li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.ingredients li::marker {
+  color: var(--Brown-800);
 }/*# sourceMappingURL=style.css.map */
