@@ -18,7 +18,7 @@ body {
   font-size: 1.6rem;
   box-sizing: border-box;
   line-height: 1.6;
-  color: var(--Stone-900);
+  color: var(--Stone-600);
 }
 
 *,
@@ -47,4 +47,30 @@ body {
   src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
+}
+
+.container {
+}
+
+.recipe {
+  padding: 4rem;
+  width: fit-content;
+
+  &__image {
+    width: 100%;
+    border-radius: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  &__heading {
+    font-family: "Young Serif", serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  &__paragraph {
+    width: 60rem;
+    margin-bottom: 3rem;
+  }
 }

@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   box-sizing: border-box;
   line-height: 1.6;
-  color: var(--Stone-900);
+  color: var(--Stone-600);
 }
 
 *,
@@ -42,4 +42,24 @@ body {
   src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
+}
+.recipe {
+  padding: 4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.recipe__image {
+  width: 100%;
+  border-radius: 1.6rem;
+  margin-bottom: 1rem;
+}
+.recipe__heading {
+  font-family: "Young Serif", serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.recipe__paragraph {
+  width: 60rem;
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=style.css.map */
