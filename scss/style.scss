@@ -127,3 +127,30 @@ body {
     }
   }
 }
+
+.instructions {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--Stone-150);
+  margin-bottom: 3rem;
+
+  &__heading {
+    color: var(--Brown-800);
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    font-family: "Outfit", sans-serif;
+    padding-left: 2rem;
+    margin-left: 2.4rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    &::marker {
+      color: var(--Brown-800);
+      font-weight: 700;
+    }
+  }
+}
