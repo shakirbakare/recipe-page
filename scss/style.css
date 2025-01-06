@@ -62,4 +62,27 @@ body {
 .recipe__paragraph {
   width: 60rem;
   margin-bottom: 3rem;
+}
+
+.preparation-time {
+  background: var(--Rose-50);
+  padding: 3rem 3rem;
+  font-family: "Outfit", sans-serif;
+  border-radius: 1.6rem;
+  margin-bottom: 3rem;
+}
+.preparation-time__heading {
+  font-size: 2rem;
+  color: var(--Rose-800);
+  margin-bottom: 1rem;
+}
+.preparation-time li {
+  padding-left: 2rem;
+  margin-left: 2rem;
+}
+.preparation-time li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.preparation-time li::marker {
+  color: var(--Brown-800);
 }/*# sourceMappingURL=style.css.map */
