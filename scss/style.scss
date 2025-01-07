@@ -30,29 +30,9 @@ body {
   box-sizing: inherit;
 }
 
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Outfit";
-  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-
 @mixin secondary-heading-style {
   color: var(--Brown-800);
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -64,11 +44,19 @@ body {
 }
 
 .container {
+  background-color: var(--Stone-100);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 0;
 }
 
 .recipe {
   padding: 4rem;
-  width: fit-content;
+  background: var(--White);
+  width: 72rem;
+  border-radius: 1.6rem;
 
   &__image {
     width: 100%;
@@ -77,14 +65,14 @@ body {
   }
 
   &__heading {
-    font-size: 4rem;
+    font-size: 4.7rem;
     font-weight: 600;
     margin-bottom: 1rem;
     font-family: "Young Serif", serif;
   }
 
   &__paragraph {
-    width: 60rem;
+    // width: 100%;
     margin-bottom: 3rem;
   }
 }
@@ -184,6 +172,7 @@ body {
 
   td {
     font-weight: 700;
+    padding-left: 12rem;
   }
 
   tr:not(:last-child) td {

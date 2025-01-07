@@ -26,28 +26,20 @@ body {
   box-sizing: inherit;
 }
 
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+.container {
+  background-color: var(--Stone-100);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 0;
 }
-@font-face {
-  font-family: "Outfit";
-  src: url("assets/fonts/outfit/static/Outfit-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Young Serif";
-  src: url("assets/fonts/outfit/static/Outfit-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
+
 .recipe {
   padding: 4rem;
-  width: -moz-fit-content;
-  width: fit-content;
+  background: var(--White);
+  width: 72rem;
+  border-radius: 1.6rem;
 }
 .recipe__image {
   width: 100%;
@@ -55,13 +47,12 @@ body {
   margin-bottom: 1rem;
 }
 .recipe__heading {
-  font-size: 4rem;
+  font-size: 4.7rem;
   font-weight: 600;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
 .recipe__paragraph {
-  width: 60rem;
   margin-bottom: 3rem;
 }
 
@@ -94,7 +85,7 @@ body {
 }
 .ingredients__heading {
   color: var(--Brown-800);
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -116,7 +107,7 @@ body {
 }
 .instructions__heading {
   color: var(--Brown-800);
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -134,7 +125,7 @@ body {
 
 .nutrition__heading {
   color: var(--Brown-800);
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -155,6 +146,7 @@ body {
 }
 .nutrition td {
   font-weight: 700;
+  padding-left: 12rem;
 }
 .nutrition tr:not(:last-child) td {
   border-bottom: 1px solid var(--Stone-150);
