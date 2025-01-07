@@ -56,6 +56,12 @@ body {
   margin-bottom: 1rem;
 }
 
+@mixin section-style {
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--Stone-150);
+  margin-bottom: 3rem;
+}
+
 .container {
 }
 
@@ -108,9 +114,7 @@ body {
 }
 
 .ingredients {
-  padding-bottom: 3rem;
-  border-bottom: 1px solid var(--Stone-150);
-  margin-bottom: 3rem;
+  @include section-style();
 
   &__heading {
     @include secondary-heading-style();
@@ -131,9 +135,7 @@ body {
 }
 
 .instructions {
-  padding-bottom: 3rem;
-  border-bottom: 1px solid var(--Stone-150);
-  margin-bottom: 3rem;
+  @include section-style();
 
   &__heading {
     @include secondary-heading-style();
