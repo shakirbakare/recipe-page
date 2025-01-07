@@ -49,6 +49,11 @@ body {
   font-size: 1.2rem;
 }
 
+@mixin list-style {
+  padding-left: 2rem;
+  margin-left: 2.4rem;
+}
+
 .container {
   background-color: var(--Stone-100);
   width: 100%;
@@ -118,8 +123,7 @@ body {
   }
 
   li {
-    padding-left: 2rem;
-    margin-left: 2.4rem;
+    @include list-style();
 
     &:not(:last-child) {
       margin-bottom: 0.5rem;
@@ -139,8 +143,7 @@ body {
   }
 
   li {
-    padding-left: 2rem;
-    margin-left: 2.4rem;
+    @include list-style();
 
     &:not(:last-child) {
       margin-bottom: 1rem;
