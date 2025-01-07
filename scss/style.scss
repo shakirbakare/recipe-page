@@ -54,6 +54,11 @@ body {
   margin-left: 2.4rem;
 }
 
+@mixin footer-link-style {
+  color: var(--Stone-900);
+  font-weight: 600;
+}
+
 .container {
   background-color: var(--Stone-100);
   width: 100%;
@@ -201,12 +206,10 @@ body {
   padding: 2rem 0;
 
   &__link {
-    color: var(--Stone-900);
-    font-weight: 600;
+    @include footer-link-style();
 
     &:visited {
-      color: var(--Stone-900);
-      font-weight: 600;
+      @include footer-link-style();
     }
   }
 }
