@@ -50,6 +50,12 @@ body {
   font-style: normal;
 }
 
+@mixin secondary-heading-style {
+  color: var(--Brown-800);
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+
 .container {
 }
 
@@ -64,7 +70,7 @@ body {
   }
 
   &__heading {
-    font-size: 2.4rem;
+    font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1rem;
   }
@@ -107,9 +113,7 @@ body {
   margin-bottom: 3rem;
 
   &__heading {
-    color: var(--Brown-800);
-    font-size: 3.6rem;
-    margin-bottom: 1rem;
+    @include secondary-heading-style();
   }
 
   li {
@@ -132,9 +136,7 @@ body {
   margin-bottom: 3rem;
 
   &__heading {
-    color: var(--Brown-800);
-    font-size: 3.6rem;
-    margin-bottom: 1rem;
+    @include secondary-heading-style();
   }
 
   li {
@@ -154,9 +156,7 @@ body {
 
 .nutrition {
   &__heading {
-    color: var(--Brown-800);
-    font-size: 3.6rem;
-    margin-bottom: 1rem;
+    @include secondary-heading-style();
   }
 
   &__paragraph {
