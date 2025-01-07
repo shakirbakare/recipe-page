@@ -32,7 +32,8 @@ body {
 
 @mixin secondary-heading-style {
   color: var(--Brown-800);
-  font-size: 3rem;
+  font-size: 2.6rem;
+  font-weight: 600;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -56,23 +57,23 @@ body {
   padding: 4rem;
   background: var(--White);
   width: 72rem;
-  border-radius: 1.6rem;
+  border-radius: 2rem;
 
   &__image {
     width: 100%;
     border-radius: 1.6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   &__heading {
-    font-size: 4.7rem;
+    font-size: 3.85rem;
     font-weight: 600;
     margin-bottom: 1rem;
     font-family: "Young Serif", serif;
+    color: var(--Stone-900);
   }
 
   &__paragraph {
-    // width: 100%;
     margin-bottom: 3rem;
   }
 }
@@ -85,6 +86,7 @@ body {
 
   &__heading {
     font-size: 2rem;
+    font-weight: 600;
     color: var(--Rose-800);
     margin-bottom: 1rem;
   }
@@ -99,6 +101,7 @@ body {
 
     &::marker {
       color: var(--Brown-800);
+      font-size: 1.2rem;
     }
   }
 }
