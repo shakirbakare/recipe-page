@@ -130,4 +130,34 @@ body {
 .instructions li::marker {
   color: var(--Brown-800);
   font-weight: 700;
+}
+
+.nutrition__heading {
+  color: var(--Brown-800);
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+}
+.nutrition__paragraph {
+  margin-bottom: 1.5rem;
+}
+.nutrition table {
+  width: 100%;
+  text-align: left;
+}
+.nutrition td,
+.nutrition th {
+  padding: 1rem 0;
+}
+.nutrition th {
+  padding-left: 3.5rem;
+  font-weight: 400;
+}
+.nutrition td {
+  font-weight: 700;
+}
+.nutrition tr:not(:last-child) td {
+  border-bottom: 1px solid var(--Stone-150);
+}
+.nutrition tr:not(:last-child) th {
+  border-bottom: 1px solid var(--Stone-150);
 }/*# sourceMappingURL=style.css.map */

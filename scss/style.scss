@@ -154,3 +154,42 @@ body {
     }
   }
 }
+
+.nutrition {
+  &__heading {
+    color: var(--Brown-800);
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+  }
+
+  &__paragraph {
+    margin-bottom: 1.5rem;
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+  }
+
+  td,
+  th {
+    padding: 1rem 0;
+  }
+
+  th {
+    padding-left: 3.5rem;
+    font-weight: 400;
+  }
+
+  td {
+    font-weight: 700;
+  }
+
+  tr:not(:last-child) td {
+    border-bottom: 1px solid var(--Stone-150);
+  }
+
+  tr:not(:last-child) th {
+    border-bottom: 1px solid var(--Stone-150);
+  }
+}
