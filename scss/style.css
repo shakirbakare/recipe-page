@@ -154,6 +154,7 @@ body {
 .nutrition td {
   font-weight: 700;
   padding-left: 12rem;
+  color: var(--Brown-800);
 }
 .nutrition tr:not(:last-child) td {
   border-bottom: 1px solid var(--Stone-150);
