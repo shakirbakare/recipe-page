@@ -89,7 +89,7 @@ body {
 .ingredients__heading {
   color: var(--Brown-800);
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -113,7 +113,7 @@ body {
 .instructions__heading {
   color: var(--Brown-800);
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -126,13 +126,13 @@ body {
 }
 .instructions li::marker {
   color: var(--Brown-800);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .nutrition__heading {
   color: var(--Brown-800);
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }

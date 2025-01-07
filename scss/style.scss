@@ -33,7 +33,7 @@ body {
 @mixin secondary-heading-style {
   color: var(--Brown-800);
   font-size: 2.6rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 1rem;
   font-family: "Young Serif", serif;
 }
@@ -148,7 +148,7 @@ body {
 
     &::marker {
       color: var(--Brown-800);
-      font-weight: 700;
+      font-weight: 600;
     }
   }
 }
