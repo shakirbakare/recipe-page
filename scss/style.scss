@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   line-height: 1.6;
   color: var(--Stone-600);
+  font-family: "Outfit", sans-serif;
 }
 
 *,
@@ -63,7 +64,6 @@ body {
   }
 
   &__heading {
-    font-family: "Young Serif", serif;
     font-size: 2.4rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -78,7 +78,6 @@ body {
 .preparation-time {
   background: var(--Rose-50);
   padding: 3rem 3rem;
-  font-family: "Outfit", sans-serif;
   border-radius: 1.6rem;
   margin-bottom: 3rem;
 
@@ -114,7 +113,6 @@ body {
   }
 
   li {
-    font-family: "Outfit", sans-serif;
     padding-left: 2rem;
     margin-left: 2.4rem;
 
@@ -140,7 +138,6 @@ body {
   }
 
   li {
-    font-family: "Outfit", sans-serif;
     padding-left: 2rem;
     margin-left: 2.4rem;
 
