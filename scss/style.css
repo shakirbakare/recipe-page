@@ -95,6 +95,7 @@ body {
   color: var(--Brown-800);
   font-size: 3.6rem;
   margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
 }
 .ingredients li {
   padding-left: 2rem;
@@ -116,6 +117,7 @@ body {
   color: var(--Brown-800);
   font-size: 3.6rem;
   margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
 }
 .instructions li {
   padding-left: 2rem;
@@ -133,6 +135,7 @@ body {
   color: var(--Brown-800);
   font-size: 3.6rem;
   margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
 }
 .nutrition__paragraph {
   margin-bottom: 1.5rem;
