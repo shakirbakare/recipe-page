@@ -175,4 +175,7 @@ body {
 .attribution__link:visited {
   color: var(--Stone-900);
   font-weight: 600;
+}
+.attribution__link:not(:last-child) {
+  margin-right: 1rem;
 }/*# sourceMappingURL=style.css.map */

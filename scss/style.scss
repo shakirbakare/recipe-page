@@ -211,5 +211,9 @@ body {
     &:visited {
       @include footer-link-style();
     }
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
   }
 }
