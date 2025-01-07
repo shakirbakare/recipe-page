@@ -194,3 +194,19 @@ body {
     border-bottom: 1px solid var(--Stone-150);
   }
 }
+
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 2rem 0;
+
+  &__link {
+    color: var(--Stone-900);
+    font-weight: 600;
+
+    &:visited {
+      color: var(--Stone-900);
+      font-weight: 600;
+    }
+  }
+}
