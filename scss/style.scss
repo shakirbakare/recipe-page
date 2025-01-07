@@ -44,6 +44,11 @@ body {
   margin-bottom: 3rem;
 }
 
+@mixin bulleted-list-style {
+  color: var(--Brown-800);
+  font-size: 1.2rem;
+}
+
 .container {
   background-color: var(--Stone-100);
   width: 100%;
@@ -100,8 +105,7 @@ body {
     }
 
     &::marker {
-      color: var(--Brown-800);
-      font-size: 1.2rem;
+      @include bulleted-list-style();
     }
   }
 }
@@ -122,7 +126,7 @@ body {
     }
 
     &::marker {
-      color: var(--Brown-800);
+      @include bulleted-list-style();
     }
   }
 }
